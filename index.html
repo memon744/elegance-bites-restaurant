@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Bites - Modern Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="#home" class="logo">Elegance Bites</a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <!-- Background image will be set in CSS for responsiveness -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Experience Culinary Excellence</h1>
+                <p>Savor exquisite flavors in a sophisticated ambiance.</p>
+                <a href="#services" class="btn btn-primary">View Our Menu</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section-padded section-alt-background">
+            <div class="container">
+                <h2 class="section-title">Our Services & Menu</h2>
+                <p class="section-description">Explore our curated offerings, from daily specials to catering experiences.</p>
+
+                <!-- Menu Categories (Example) -->
+                <div class="menu-category">
+                    <h3>Appetizers</h3>
+                    <div class="dish-grid">
+                        <div class="dish-card fade-in">
+                            <!-- Responsive image with srcset for different sizes -->
+                            <img
+                                srcset="images/Classic Bruschetta-small.jpg 480w, images/Classic Bruschetta-medium.jpg 800w, images/Classic Bruschetta.jpg 1200w"
+                                sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px"
+                                src="images/Classic Bruschetta.jpg"
+                                alt="Classic Bruschetta"
+                            >
+                            <h4>Classic Bruschetta</h4>
+                            <p>Toasted bread with fresh tomatoes, basil, and garlic.</p>
+                        </div>
+                        <div class="dish-card fade-in">
+                            <img
+                                srcset="images/Crispy Calamari-small.jpg 480w, images/Crispy Calamari-medium.jpg 800w, images/Crispy Calamari.jpg 1200w"
+                                sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px"
+                                src="images/Crispy Calamari.jpg"
+                                alt="Crispy Calamari"
+                            >
+                            <h4>Crispy Calamari</h4>
+                            <p>Lightly fried calamari served with zesty marinara.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h3>Main Courses</h3>
+                    <div class="dish-grid">
+                        <div class="dish-card fade-in">
+                            <img
+                                srcset="images/Grilled Salmon Fillet-small.jpg 480w, images/Grilled Salmon Fillet-medium.jpg 800w, images/Grilled Salmon Fillet.jpg 1200w"
+                                sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px"
+                                src="images/Grilled Salmon Fillet.jpg"
+                                alt="Grilled Salmon Fillet"
+                            >
+                            <h4>Grilled Salmon Fillet</h4>
+                            <p>Served with asparagus and lemon-dill sauce.</p>
+                        </div>
+                        <div class="dish-card fade-in">
+                            <img
+                                srcset="images/Prime Ribeye Steak-small.jpg 480w, images/Prime Ribeye Steak-medium.jpg 800w, images/Prime Ribeye Steak.jpg 1200w"
+                                sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px"
+                                src="images/Prime Ribeye Steak.jpg"
+                                alt="Prime Ribeye Steak"
+                            >
+                            <h4>Prime Ribeye Steak</h4>
+                            <p>Cooked to perfection, with roasted potatoes.</p>
+                        </div>
+                        <div class="dish-card fade-in">
+                            <img
+                                srcset="images/Vegetable Lasagna-small.jpg 480w, images/Vegetable Lasagna-medium.jpg 800w, images/Vegetable Lasagna.jpg 1200w"
+                                sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px"
+                                src="images/Vegetable Lasagna.jpg"
+                                alt="Vegetable Lasagna"
+                            >
+                            <h4>Vegetable Lasagna</h4>
+                            <p>Layers of fresh vegetables, pasta, and rich cheese sauce.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h3>Desserts</h3>
+                    <div class="dish-grid">
+                        <div class="dish-card fade-in">
+                            <img
+                                srcset="images/Classic Tiramisu-small.jpg 480w, images/Classic Tiramisu-medium.jpg 800w, images/Classic Tiramisu.jpg 1200w"
+                                sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px"
+                                src="images/Classic Tiramisu.jpg"
+                                alt="Classic Tiramisu"
+                            >
+                            <h4>Classic Tiramisu</h4>
+                            <p>Coffee-soaked ladyfingers with mascarpone cream.</p>
+                        </div>
+                        <div class="dish-card fade-in">
+                            <img
+                                srcset="images/New York Cheesecake-small.jpg 480w, images/New York Cheesecake-medium.jpg 800w, images/New York Cheesecake.jpg 1200w"
+                                sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px"
+                                src="images/New York Cheesecake.jpg"
+                                alt="New York Cheesecake"
+                            >
+                            <h4>New York Cheesecake</h4>
+                            <p>Rich and creamy, with a berry compote.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center" style="margin-top: 3rem;">
+                    <a href="#contact" class="btn btn-primary">Book an Event</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section-padded">
+            <div class="container">
+                <h2 class="section-title">Our Story & Philosophy</h2>
+                <p class="section-description">Elegance Bites was born from a dream to combine gourmet cuisine with an inviting atmosphere. Learn about our journey and commitment to quality.</p>
+
+                <div class="about-content">
+                    <div class="about-image fade-in">
+                        <img
+                            srcset="images/restaurant interior.jpg-small.jpg 480w, images/restaurant interior-medium.jpg 800w, images/restaurant interior.jpg 1200w"
+                            sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px"
+                            src="images/restaurant interior.jpg"
+                            alt="Restaurant Interior"
+                        >
+                    </div>
+                    <div class="about-text fade-in">
+                        <h3>A Legacy of Flavor</h3>
+                        <p>Founded by Chef Anya Sharma, Elegance Bites quickly became a culinary landmark. Our philosophy centers on using the freshest, locally-sourced ingredients to create dishes that are both innovative and comforting. Every plate tells a story, and every visit is a journey.</p>
+                        <p>We believe in sustainable practices and supporting our local community, ensuring that your dining experience not only delights your palate but also contributes to a better world.</p>
+                        <a href="#contact" class="btn btn-secondary">Join Our Team</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="section-padded section-alt-background">
+            <div class="container">
+                <h2 class="section-title">Contact Us & Reservations</h2>
+                <p class="section-description">We look forward to welcoming you. Reach out for reservations, inquiries, or private events.</p>
+
+                <div class="contact-grid">
+                    <div class="contact-info fade-in">
+                        <h3>Visit Us</h3>
+                        <p>123 Culinary Avenue</p>
+                        <p>Foodie City, FC 12345</p>
+                        <p><strong>Hours:</strong></p>
+                        <ul>
+                            <li>Mon - Thu: 5:00 PM - 10:00 PM</li>
+                            <li>Fri - Sat: 5:00 PM - 11:00 PM</li>
+                            <li>Sunday: 4:00 PM - 9:00 PM</li>
+                        </ul>
+                        <div class="map-placeholder">
+                            <!-- Replace with your actual Google Maps embed code -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-74.0060!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQyJzUwLjkiTiA3NMKwMDAnMjEuNCJF!5e0!3m2!1sen!2sus!4v1678888888888!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="contact-form fade-in">
+                        <h3>Send a Message</h3>
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone (Optional)</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <a href="#" target="_blank" aria-label="Facebook"><img src="images/facebook.jpg" alt="Facebook"></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><img src="images/instagram.jpg" alt="Instagram"></a>
+                    <a href="#" target="_blank" aria-label="Twitter"><img src="images/twitter.jpg" alt="Twitter"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>Elegance Bites</h3>
+                <p>Where every meal is a masterpiece.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p>123 Culinary Ave, Foodie City, FC 12345</p>
+                <p>+1 (555) 123-4567</p>
+                <p>info@elegancebites.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Elegance Bites. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
